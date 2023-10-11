@@ -1,0 +1,148 @@
+.achievment1 {
+    background: #1abc9c;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: fit-content;
+}
+
+.container4 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.achievment-up {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+.achievment-content {
+    text-align: center;
+}
+
+.achievment-subheading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: aliceblue;
+    text-transform: capitalize;
+    position: relative;
+
+}
+
+.achievment-subheading::before {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: white;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto 15px;
+}
+
+.achievment-subheading::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: white;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto 15px;
+}
+
+.achievment-subheading::before {
+    margin-left: -65px;
+}
+
+.achievment-heading {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+
+.achievment-down {
+    margin-bottom: -200px;
+}
+
+.achievment-box {
+    padding: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 6px 10px 0 rgb(238 238 238 / 44%);
+    margin-bottom: 30px;
+}
+
+.achievment-no {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    opacity: 0.5;
+    color: #fd9678;
+}
+
+.achievment-count {
+    display: flex;
+    align-items: center;
+}
+
+.achievment-icon {
+    width: 60px;
+}
+
+.achievment-head {
+    padding-left: 15px;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.achievment-box p {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.achievment-flex1 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 1200px) {
+    .achievment-flex1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+
+    }
+
+}
+
+@media (max-width: 1199px) and (min-width:700px) {
+    .achievment-flex1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+
+    }
+
+}

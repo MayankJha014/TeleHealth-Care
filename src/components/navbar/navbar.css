@@ -1,0 +1,131 @@
+.navbar1 {
+    padding: 10px 0;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0/ rgb(87%));
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+
+.container {
+    max-width: 1180px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-logo {
+    /* max-width: 25%; */
+    flex: 0 11 83%;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: inline-block;
+    margin-right: 30px;
+    color: black;
+}
+
+.nav-ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.n-button {
+    display: inline-block;
+    min-width: 140px;
+    background: #9078fd;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-radius: 50px;
+    transition: 0.3s;
+    max-width: max-content;
+    line-height: normal;
+    position: relative;
+    box-shadow: 0px 0px 0px 4px rgba(166, 120, 253, 0.15);
+}
+
+.nav-list:hover {
+    color: white;
+    background-color: #9078fd;
+    padding: 10px;
+    border-radius: 50rem;
+
+}
+
+#ham {
+
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .main-logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .logo1 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .nav-ul {
+        position: fixed;
+        top: 130px;
+        height: auto;
+        width: 100%;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        display: none;
+    }
+
+    #check:checked~ul {
+        display: block;
+    }
+
+    #ham {
+        max-width: 8%;
+        display: block;
+    }
+}

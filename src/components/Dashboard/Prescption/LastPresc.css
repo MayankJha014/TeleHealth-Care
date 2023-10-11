@@ -1,0 +1,39 @@
+.form{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 13rem;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+
+.hi{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.presc{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid violet;
+    width: 55rem;
+    height: 32rem;
+    margin-left: 35%;
+    margin-top: 25%;
+}
+
+.print{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 20%;
+    
+}
+
+

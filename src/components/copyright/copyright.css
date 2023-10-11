@@ -1,0 +1,34 @@
+.copyright1 {
+    background: #283240;
+    padding: 18px 0;
+    text-align: center;
+}
+
+.container7 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row7 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.copyright-content p {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .copyright-flex {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

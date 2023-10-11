@@ -1,0 +1,130 @@
+.contact1 {
+    padding-top: 160px;
+    background-color: #faf9ff;
+}
+
+.container5 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row5 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.contact-size {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.contact-heading {
+    font-size: 25px;
+    color: #1abc9c;
+    position: relative;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.contact-heading::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #1abc9c;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto 15px;
+}
+
+.contact-subheading {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.contact-map {
+    position: relative;
+    z-index: 2;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact-box {
+
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 50px;
+    margin-left: 2rem;
+    box-shadow: 2px 0 10px #145fb6;
+}
+
+.contact-box form label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.contact-box form input {
+    border: 1px solid #eee;
+    outline: none;
+    padding: 15px 15px;
+    border-radius: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: visible;
+}
+
+.contact-box form textarea {
+    border: 1px solid #eee;
+    outline: none;
+    padding: 15px 15px;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: visible;
+}
+
+.contact-box form {
+    display: block;
+}
+
+.contact-department {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5rem;
+    border: 1px solid #eee;
+    outline: none;
+    padding: 15px 15px;
+    border-radius: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: visible;
+}
+
+@media (min-width: 992px) {
+    .contact-left {
+        margin-left: 8.33%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
+    .contact-right {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+}

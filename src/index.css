@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #1f2732;
+  }
+
+  div {
+    display: block;
+  }
+
+  :focus {
+    outline: none;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  input, textarea {
+    border: 1px solid #eee;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    width: 100%;
+  }
+
+  textarea {
+    border-radius: 10px;
+    height: 130px;
+    resize: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+}
